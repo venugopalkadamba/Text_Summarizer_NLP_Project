@@ -78,6 +78,7 @@ That's it you can see your website running at <b>your_app_name.herokuapp.com</b>
 ![alt text](https://github.com/venugopalkadamba/Text_Summarizer_NLP_Project/blob/master/README_assets/docker.jpg)
 ![alt text](https://github.com/venugopalkadamba/Text_Summarizer_NLP_Project/blob/master/README_assets/heroku.jpg)
 ![alt text](https://github.com/venugopalkadamba/Text_Summarizer_NLP_Project/blob/master/README_assets/NLP.jpg)
+![alt text](https://github.com/venugopalkadamba/Text_Summarizer_NLP_Project/blob/master/README_assets/beautiful_soup.jpg)
 
 ## Live Video of Web Application
 ![alt text](https://github.com/venugopalkadamba/Text_Summarizer_NLP_Project/blob/master/README_assets/Final_Video.gif)
