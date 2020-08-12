@@ -29,14 +29,14 @@ That's it you can see your website running at localhost.
 ## Steps to deploy the web application on Heroku using Dockers
 **Step-1** Download the Heroku CLI and Docker desktop based on you windows version from the official website of Dockers.<br>
 **Step-2** Create your heroku account at [www.heroku.com](https://www.heroku.com/) and docker account at [hub.docker.com](https://hub.docker.com/)<br>
-**Step-3** Make sure that you have downloaded the [Dockerfile]() and [docker-compose.yml]() files and open the command prompt in that directory.<br>
+**Step-3** Make sure that you have downloaded the [Dockerfile](https://github.com/venugopalkadamba/Text_Summarizer_NLP_Project/blob/master/Dockerfile) and [docker-compose.yml](https://github.com/venugopalkadamba/Text_Summarizer_NLP_Project/blob/master/docker-compose.yml) files and open the command prompt in that directory.<br>
 **Step-4** Run these following commands in the command prompt:<br>
 <b>Login to your docker account.</b><br>
 
 ```python
  docker login
 ```
-<b>Creating a tag name.</b>
+<b>Building the Image.</b>
 <br>
 
 ```python
@@ -72,7 +72,12 @@ That's it you can see your website running at localhost.
 ```python
  heroku container:release web --app previously_created_app_name
 ```
-That's it you can see your website running at your_app_name.herokuapp.com.
+That's it you can see your website running at <b>your_app_name.herokuapp.com</b>.
+
+## Technologies Used
+![alt text](https://github.com/venugopalkadamba/Text_Summarizer_NLP_Project/blob/master/README_assets/docker.png)
+![alt text](https://github.com/venugopalkadamba/Text_Summarizer_NLP_Project/blob/master/README_assets/heroku.jpg)
+![alt text](https://github.com/venugopalkadamba/Text_Summarizer_NLP_Project/blob/master/README_assets/NLP.jpeg)
 
 ## Live Video of Web Application
 ![alt text](https://github.com/venugopalkadamba/Text_Summarizer_NLP_Project/blob/master/README_assets/Final_Video.gif)
