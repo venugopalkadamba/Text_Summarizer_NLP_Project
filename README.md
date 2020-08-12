@@ -31,38 +31,38 @@ That's it you can see your website running at localhost.
 **Step-2** Create your heroku account at [www.heroku.com](https://www.heroku.com/) and docker account at [hub.docker.com](https://hub.docker.com/)<br>
 **Step-3** Make sure that you have downloaded the [Dockerfile]() and [docker-compose.yml]() files and open the command prompt in that directory.<br>
 **Step-4** Run these following commands in the command prompt:<br>
-Login to your docker account.<br>
+<b>Login to your docker account.</b><br>
 
 ```python
  docker login
 ```
-<b>Creating a tag name.<b>
+<b>Creating a tag name.</b>
 <br>
 
 ```python
  docker build -t enter_any_tag_name .
 ```
-<b>Log in to your Heroku account.<b><br>
+<b>Log in to your Heroku account.</b><br>
 
 ```python
  heroku login
 ```
-<b>Login to your Heroku container.<b><br>
+<b>Login to your Heroku container.</b><br>
 
 ```python
  heroku container:login
 ```
-<b>Creating a app in Heroku.<b><br>
+<b>Creating a app in Heroku.</b><br>
 
 ```python
  heroku create enter_app_name
 ```
-<b>Tag the heroku web app with docker.<b><br>
+<b>Tag the heroku web app with docker.</b><br>
 
 ```python
  docker tag previously_entered_tagname registry.heroku.com/previously_created_app_name/web
 ```
-<b>Pushing all files into Heroku.<b><br>
+<b>Pushing all files into Heroku.</b><br>
 
 ```python
  docker push registry.heroku.com/previously_created_app_name/web
