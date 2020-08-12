@@ -36,7 +36,7 @@ Login to your docker account.<br>
  docker login
 ```
 <br>
-Creating a tag name.
+**Creating a tag name.
 <br>
 ```python
  docker build -t enter_any_tag_name .
@@ -71,7 +71,7 @@ Pushing all files into Heroku.<br>
  docker push registry.heroku.com/previously_created_app_name/web
 ```
 <br>
-Releasing the web application.<br>
+Releasing the web application.**<br>
 ```python
  heroku container:release web --app previously_created_app_name
 ```
