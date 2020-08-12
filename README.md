@@ -35,37 +35,37 @@ That's it you can see your website running at localhost.
  docker login
 ```
 <br>
-Creating a tag name.
+Creating a tag name.<br>
 ```python
  docker build -t enter_any_tag_name .
 ```
 <br>
-Log in to your Heroku account.
+Log in to your Heroku account.<br>
 ```python
  heroku login
 ```
 <br>
-Login to your Heroku container.
+Login to your Heroku container.<br>
 ```python
  heroku container:login
 ```
 <br>
-Creating a app in Heroku.
+Creating a app in Heroku.<br>
 ```python
  heroku create enter_app_name
 ```
 <br>
-Tag the heroku web app with docker.
+Tag the heroku web app with docker.<br>
 ```python
  docker tag previously_entered_tagname registry.heroku.com/previously_created_app_name/web
 ```
 <br>
-Pushing all files into Heroku.
+Pushing all files into Heroku.<br>
 ```python
  docker push registry.heroku.com/previously_created_app_name/web
 ```
 <br>
-Releasing the web application.
+Releasing the web application.<br>
 ```python
  heroku container:release web --app previously_created_app_name
 ```
