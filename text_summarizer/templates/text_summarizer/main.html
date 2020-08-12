@@ -1,0 +1,54 @@
+{% load static %}
+<html>
+    <head>
+        <title>Text Summarizer</title>
+        <meta name="author" content="VENU GOPAL KADAMBA">
+        <meta name="Keywords" content="Django,NLP,Machine Learning,Deep Learning,Artificial Intelligence,AI,ML,DL,Web Development">
+        <meta name="description" content="A NLP algorithm based web application for Text Summarization built using Django and Dockers and deployed on Heroku.">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    </head>
+
+    <style>
+        html{
+            position: relative;
+            min-height: 100%;
+        }
+
+        body{
+            background: black url("{% static 'images/background.jpg' %}") no-repeat fixed;
+            background-size: cover;
+            margin: 0 0 100px;
+            padding: 25px;
+        }
+        footer {
+            background: transparent;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            height: 75px;
+            width: 100%;
+            overflow: hidden;
+        }
+    </style>
+
+    <body>
+        {%  include 'text_summarizer/navbar.html' %}
+	<br><br>
+              {% block content %}
+              {% endblock %}
+          <footer>
+            <center><p style="color: white;font-size: 17px;font-weight: bold;">Made with <span style="color:red">&#10084;</span> by VENU GOPAL KADAMBA</p></center>
+            <center><p style="font-size: 22px; margin-top: -5px;">
+                <a href="https://www.github.com/venugopalkadamba" target="_blank"><span style="color: white !important;" class="fa fa-github"></span></a>&nbsp;&nbsp;
+                <a href="https://www.linkedin.com/in/venugopalkadamba" target="_blank" ><span style="color: white !important;" class="fa fa-linkedin"></span></a>&nbsp;&nbsp;
+                <a href="https://www.instagram.com/venugopal_2001" target="_blank" ><span style="color: white !important;" class="fa fa-instagram"></span></a> 
+            </p></center>
+        </footer>      
+    </body>
+</html>
