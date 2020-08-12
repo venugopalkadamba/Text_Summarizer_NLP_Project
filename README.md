@@ -36,42 +36,38 @@ Login to your docker account.<br>
  docker login
 ```
 <br>
-**Creating a tag name.
+<b>Creating a tag name.<b>
 <br>
 ```python
  docker build -t enter_any_tag_name .
 ```
 <br>
-```python
- docker build -t enter_any_tag_name .
-```
-<br>
-Log in to your Heroku account.<br>
+<b>Log in to your Heroku account.<b><br>
 ```python
  heroku login
 ```
 <br>
-Login to your Heroku container.<br>
+<b>Login to your Heroku container.<b><br>
 ```python
  heroku container:login
 ```
 <br>
-Creating a app in Heroku.<br>
+<b>Creating a app in Heroku.<b><br>
 ```python
  heroku create enter_app_name
 ```
 <br>
-Tag the heroku web app with docker.<br>
+<b>Tag the heroku web app with docker.<b><br>
 ```python
  docker tag previously_entered_tagname registry.heroku.com/previously_created_app_name/web
 ```
 <br>
-Pushing all files into Heroku.<br>
+<b>Pushing all files into Heroku.<b><br>
 ```python
  docker push registry.heroku.com/previously_created_app_name/web
 ```
 <br>
-Releasing the web application.**<br>
+<b>Releasing the web application.</b><br>
 ```python
  heroku container:release web --app previously_created_app_name
 ```
