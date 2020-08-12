@@ -37,6 +37,10 @@ That's it you can see your website running at localhost.
 <br>
 Creating a tag name.<br>
 ```python
+docker build -t enter_any_tag_name .
+```
+<br>
+```python
  docker build -t enter_any_tag_name .
 ```
 <br>
