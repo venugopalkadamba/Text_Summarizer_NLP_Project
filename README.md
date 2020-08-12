@@ -39,7 +39,7 @@ Login to your docker account.<br>
 Creating a tag name.
 <br>
 ```python
-docker build -t enter_any_tag_name .
+ docker build -t enter_any_tag_name .
 ```
 <br>
 ```python
